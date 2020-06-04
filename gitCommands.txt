@@ -1,0 +1,106 @@
+Microsoft Windows [Version 10.0.18362.836]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\MyDemoRepository\hello-world>git stash save
+Saved working directory and index state WIP on branch3: d045017 Commiting Demo 9 and 10
+
+E:\MyDemoRepository\hello-world>git pull
+Already up to date.
+
+E:\MyDemoRepository\hello-world>git stash pop
+Removing My File Demo7.txt
+Removing My File Demo7 - Copy.txt
+Removing My File Demo6.txt
+Removing My File Demo6 - Copy.txt
+Removing My File Demo5.txt
+Removing My File Demo5 - Copy.txt
+Removing My File Demo4.txt
+Removing My File Demo4 - Copy.txt
+Removing My File Demo3.txt
+Removing My File Demo3 - Copy.txt
+Removing My File Demo2.txt
+Removing My File Demo2 - Copy.txt
+Removing My File Demo1.txt
+Removing My File Demo1 - Copy.txt
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    My File Demo1 - Copy.txt
+        deleted:    My File Demo1.txt
+        deleted:    My File Demo2 - Copy.txt
+        deleted:    My File Demo2.txt
+        deleted:    My File Demo3 - Copy.txt
+        deleted:    My File Demo3.txt
+        deleted:    My File Demo4 - Copy.txt
+        deleted:    My File Demo4.txt
+        deleted:    My File Demo5 - Copy.txt
+        deleted:    My File Demo5.txt
+        deleted:    My File Demo6 - Copy.txt
+        deleted:    My File Demo6.txt
+        deleted:    My File Demo7 - Copy.txt
+        deleted:    My File Demo7.txt
+        modified:   My File Demo8(1st commit).txt
+        modified:   My File Demo9.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (bcfed7163d12416fca2f73ea52ba693e35a38837)
+
+E:\MyDemoRepository\hello-world>git show
+commit d045017797f79dd3ce985e87d19428ae324c819b (HEAD -> branch3, origin/branch3)
+Author: Madhumita Velayutham <mvelayutham@operative.com>
+Date:   Thu Jun 4 16:38:52 2020 +0530
+
+    Commiting Demo 9 and 10
+
+diff --git a/My File Demo10.txt b/My File Demo10.txt
+index cb8aced..ca8a417 100644
+--- a/My File Demo10.txt
++++ b/My File Demo10.txt
+@@ -1 +1 @@
+-Demo1 Change1
+\ No newline at end of file
++Demo1 Change10
+\ No newline at end of file
+
+E:\MyDemoRepository\hello-world>git checkout branch3
+Already on 'branch3'
+D       My File Demo1 - Copy.txt
+D       My File Demo1.txt
+D       My File Demo2 - Copy.txt
+D       My File Demo2.txt
+D       My File Demo3 - Copy.txt
+D       My File Demo3.txt
+D       My File Demo4 - Copy.txt
+D       My File Demo4.txt
+D       My File Demo5 - Copy.txt
+D       My File Demo5.txt
+D       My File Demo6 - Copy.txt
+D       My File Demo6.txt
+D       My File Demo7 - Copy.txt
+D       My File Demo7.txt
+M       My File Demo8(1st commit).txt
+M       My File Demo9.txt
+Your branch is up to date with 'origin/branch3'.
+
+E:\MyDemoRepository\hello-world>git add "My File Demo8(1st commit).txt" "My File Demo9.txt"
+
+E:\MyDemoRepository\hello-world>git commit -m "My COMMIT EOD"
+[branch3 8111f4d] My COMMIT EOD
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+E:\MyDemoRepository\hello-world>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 358 bytes | 119.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/MadhumitaV/hello-world.git
+   d045017..8111f4d  branch3 -> branch3
+
+E:\MyDemoRepository\hello-world>
