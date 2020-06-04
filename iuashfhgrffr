@@ -1,0 +1,50 @@
+[1mdiff --git a/My File Demo1 - Copy.txt b/My File Demo1 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo1.txt b/My File Demo1.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo2 - Copy.txt b/My File Demo2 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo2.txt b/My File Demo2.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo3 - Copy.txt b/My File Demo3 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo3.txt b/My File Demo3.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo4 - Copy.txt b/My File Demo4 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo4.txt b/My File Demo4.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo5 - Copy.txt b/My File Demo5 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo5.txt b/My File Demo5.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo6 - Copy.txt b/My File Demo6 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo6.txt b/My File Demo6.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/My File Demo7 - Copy.txt b/My File Demo7 - Copy.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e3bf70f..0000000[m
+[1m--- a/My File Demo7 - Copy.txt[m	
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-Demo7[m
+[1mdiff --git a/My File Demo7.txt b/My File Demo7.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e3bf70f..0000000[m
+[1m--- a/My File Demo7.txt[m	
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-Demo7[m
