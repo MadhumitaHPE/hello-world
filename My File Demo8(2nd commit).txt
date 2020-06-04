@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Commit4
-=======
-Commit3
->>>>>>> 9f7feec... 1
